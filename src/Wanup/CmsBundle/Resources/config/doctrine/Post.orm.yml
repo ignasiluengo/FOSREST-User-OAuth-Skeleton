@@ -41,7 +41,9 @@ Wanup\CmsBundle\Entity\Post:
     manyToMany:
         tag:
             targetEntity: Tag
-            cascade: {  }
+            cascade:
+              - persist
+              - remove
             fetch: LAZY
             mappedBy: null
             inversedBy: post
