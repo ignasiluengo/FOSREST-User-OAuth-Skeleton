@@ -1,3 +1,7 @@
+wanup_cms:
+    resource: "@WanupCmsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

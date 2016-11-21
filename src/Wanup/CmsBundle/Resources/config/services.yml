@@ -1,0 +1,4 @@
+services:
+#    wanup_cms.example:
+#        class: Wanup\CmsBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
